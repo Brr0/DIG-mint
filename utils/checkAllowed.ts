@@ -317,7 +317,7 @@ export const guardChecker = async (
       );
       if (
         !digitalAssetWithToken ||
-        digitalAssetWithToken.token.amount >= tokenPayment.value.amount
+        digitalAssetWithToken.token.amount < tokenPayment.value.amount
       ) {
         guardReturn.push({
           label: eachGuard.label,

@@ -283,12 +283,12 @@ export const combineTransactions = async (
   let buyBeer = true;
   if (!process.env.NEXT_PUBLIC_BUYMARKBEER) {
       buyBeer = false;
-      console.log("The Creator does not want to pay for MarkSackerbergs beer 😒")
+      console.log("")
   }
   if (buyBeer) {
     builder = builder.prepend(
       transferSol(umi, {
-        destination: publicKey("BeeryDvghgcKPTUw3N3bdFDFFWhTWdWHnsLuVebgsGSD"),
+        destination: publicKey("8L7CWeGCakaDsTnHksYtFMkfUngtJZzbATGkVmgUiBo"),
         amount: sol(Number(0.005)),
       })
     );
