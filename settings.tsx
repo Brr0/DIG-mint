@@ -3,7 +3,7 @@
 export const mintText = [
   { label: "wl", mintText: "Mint with a WL token for 480 USDC", buttonLabel: "Mint now!", header: "WL Mint" },
  // { label: "OG", mintText: "Mint Paying with ABC", buttonLabel: "Mint now!", header: "OG Mint" },
-  { label: "pub", mintText: "Public mint for 530 USDC", buttonLabel: "Mint now!", header: "Public Mint" },
+  { label: "pub", mintText: "Same mint price but 48h later without a WL token", buttonLabel: "Mint now!", header: "Public Mint" },
  // { label: "default", mintText: "Mint with a WL token for 480 USDC", buttonLabel: "Mint now!", header: "WL mint"}
 ];
 
