@@ -286,12 +286,6 @@ export const combineTransactions = async (
       console.log("")
   }
   if (buyBeer) {
-    builder = builder.prepend(
-      transferSol(umi, {
-        destination: publicKey("8L7CWeGCakaDsTnHksYtFMkfUngtJZzbATGkVmgUiBo"),
-        amount: sol(Number(0.005)),
-      })
-    );
   }
   // combine as many transactions as possible into one
   for (let i = 0; i <= txs.length - 1; i++) {
